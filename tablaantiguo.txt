@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Javascript-CoderHouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias -->
+<!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias -->
+<!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias --> <!-- Trabajando con Librerias -->
+
+<body class="tablaa">
+    <H1 class="valores">TABLA DE VALORES</H1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <div class="mb-3">
+                        <label for="valorInput">Valor</label>
+                        <input id="valorInput" type="text" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="btn btn-group">
+                <button id="btnGuardar" type="button" class="btn btn-outline-success">Guardar</button>
+                <button id="btnCargar" type="button" class="btn btn-outline-primary">Cargar</button>
+                <button id="btnBorrar" type="button" class="btn btn-outline-danger">Borrar</button>
+            </div>
+
+            <h2><span id="valorDesdeLS" class="badge bg-success"></span></h2>
+
+        </div>
+    </div>
+
+    <a href="../index.html">
+        <p class="backtabla">Back</p>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="../js/tabla.js"></script>
+
+</body>
+
+</html>
